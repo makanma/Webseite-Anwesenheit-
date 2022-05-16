@@ -1,0 +1,108 @@
+#content{
+	
+	width: 70%;
+}
+
+#table1 {
+	min-width: 50px;
+	/* margin: auto; */
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align:center;
+	/* width:100%; */
+	table-layout: auto;
+	
+}
+
+#table1 th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #4CAF50;
+	color: white;
+	padding: 0.5em;
+	font-size: 1em;
+	}
+
+#table1 tr:nth-child(even){background-color: #f2f2f2;}
+.names{
+	writing-mode: vertical-rl;
+}
+
+#menu{
+
+	text-align: right;
+}
+
+/* menu.php */
+
+main{
+	display: grid;
+	margin:auto;
+	width:50%;
+}
+
+/* body {
+	display: grid;
+	height: 100vh;
+	grid-template: auto 1fr auto / auto 1fr auto
+  } */
+  header {
+	background: rgb(255, 255, 255);
+	padding: 2rem;
+	text-align: center;
+	grid-column: 1 / 4;
+  }
+
+  .container__sidebar {
+	background: rgb(255, 255, 255);
+	grid-column: 1 / 2;
+	margin: 10px;
+  }
+  
+  .container__main {
+	background: rgb(255, 255, 255);
+	grid-column: 2 / 3;
+  }
+  
+  .container__right {
+	background: rgb(255, 255, 255);
+	grid-column: 3 / 4;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+	.main {
+		width: 100%;
+		background-color: lightblue;
+	}
+	
+  }  
+
+
+
+
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  /* @media screen and (max-height: 450px) {
+	.container__sidebar {padding-top: 15px;}
+	.container__sidebar a {font-size: 18px;}
+  }   */
+
+  
+
+
+input{
+	padding:5px;
+	margin: 10px;
+}
+
+
+/* menu.php */
+
+
+
+
+#col{
+	width:200px;
+}
